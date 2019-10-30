@@ -41,7 +41,7 @@ A parte de diário do servidor está muito próxima de ser encerrada...
 
 #### Autenticação administrativa
 
-Foi finalizar a parte de autenticação e cadastro de administradores, contendo já um registro inicial no banco de dados.
+Foi finalizada a parte de autenticação e cadastro de administradores, contendo já um registro inicial no banco de dados.
 
 %%%
 
@@ -59,7 +59,10 @@ Foi conversado individualmente com cada líder de grupo.
 
 #### Web
 
-<!-- Wagneeeerrrrrrrr -->
+- Foi definido(a):
+  - A barra de navegação de cada tipo de usuário
+  - O layout de listagem de dados e a relação de cada tipo de usuário com esses itens
+  - As páginas de transições
 
 ---
 
@@ -75,10 +78,6 @@ Um de nossos planos é adicionar algumas requisições padrão do _Insomnia_ par
 
 #### Tentar suprir os outros grupos
 
-%%%
-
-#### O de praxe
-
 ---
 
 ## Grupo 1 | B
@@ -93,7 +92,7 @@ Um de nossos planos é adicionar algumas requisições padrão do _Insomnia_ par
 
 - ✅ Inserir acervo
 - ✅ Remover acervo
-  - ✅ Enviar email
+- ✅ Enviar email
 - ✅ Atualizar acervo
 - ✅ Consultar acervo
 
@@ -101,9 +100,9 @@ Um de nossos planos é adicionar algumas requisições padrão do _Insomnia_ par
 
 #### Começar Front-end
 
-- ✅ listar professores
-- ✅ modal de edição
-- ✅ modal de remoção
+- ✅ Listar professores
+- ✅ Modal de edição
+- ✅ Modal de remoção
 
 ---
 
@@ -139,15 +138,15 @@ Um de nossos planos é adicionar algumas requisições padrão do _Insomnia_ par
 
 #### Terminar back-end
 
-- login do _professor_
+- Login do _professor_
 
 #### Terminar front-end da aplicação web
 
-- listagem do _acervo_
+- Listagem do _acervo_
 
 #### Começar front-end da aplicação desktop
 
-- listagem dos _professores_
+- Listagem dos _professores_
 
 ---
 
@@ -162,9 +161,9 @@ front end Web de manutenção de Disciplinas
 
 ## O que foi proposto
 
-- Front-end web de manutenção de Disciplinas
-- Back-end de Manutenção de emprestimos
-- Fazer requisições no Desktop( Ideia abandonada )
+- Front-end web de Manutenção de Disciplinas
+- Back-end de Manutenção de Empréstimos
+- Fazer requisições no Desktop (ideia abandonada)
 
 ---
 
@@ -172,22 +171,22 @@ front end Web de manutenção de Disciplinas
 
 ---
 
-## Gabriel
+#### Gabriel
 
-Responsavel pelo Back-end de Manutenção de emprestimos
-as rotas possiveis de se acessar são descritas pela url:
+Responsável pelo Back-end de Manutenção de Empréstimos.
+As rotas possíveis de se acessar são descritas pela url:
 
-`http://localhost:8080/app/biblioteca/emprestimos/{operação}`
+`app/biblioteca/emprestimos/{operação}`
 
-onde operação pode ser `consultar`, `consultarporid`, `deletar`, `inserir`
+Onde a operação pode ser `consultar`, `consultarporid`, `deletar`, `inserir`
 
 ---
 
-## Marcus e Guilherme
+#### Marcus e Guilherme
 
-Responsaveis pelo Front-end de Manutenção de Disciplinas
+Responsáveis pelo Front-end de Manutenção de Disciplinas
 
-- Interface web com o usuario
+- Interface web com o usuário
 - Requisições para o servidor
 
 %%%
@@ -196,7 +195,7 @@ Responsaveis pelo Front-end de Manutenção de Disciplinas
 
 ---
 
-## Isabella
+#### Isabella
 
 Responsável pela aplicação Desktop
 
@@ -339,7 +338,7 @@ Não foi possível realizar os relatórios devido à indefinição de como os me
 
 %%%
 
-### Relatorios
+### Relatórios
 
 - Histórico Escolar
 
