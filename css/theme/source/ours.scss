@@ -1,0 +1,77 @@
+/**
+ * Blood theme for reveal.js
+ * Author: Walther http://github.com/Walther
+ *
+ * Designed to be used with highlight.js theme
+ * "monokai_sublime.css" available from
+ * https://github.com/isagalaev/highlight.js/
+ *
+ * For other themes, change $codeBackground accordingly.
+ *
+ */
+
+ // Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+// Colors used in the theme
+$pri: #29A58C;
+$pri-alt: #06755F;
+$sec: #2C46A5;
+$sec-alt: #0F2987;
+
+$dark: #090909;
+$light: #fdfbf9;
+$codeBackground: #fafafa;
+
+$backgroundColor: $light;
+
+// Main text
+$mainFont: Montserrat, 'sans-serif';
+$mainColor: $dark;
+
+// Headings
+$headingFont: Montserrat, 'sans-serif';
+$headingColor: $pri-alt;
+
+// Links
+$linkColor: $sec;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: $pri;
+$selectionColor: $light;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// some overrides after theme template import
+
+.reveal p {
+    font-weight: 300;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-weight: 700;
+}
+
+.reveal p code {
+    background-color: $codeBackground;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.reveal small code {
+    vertical-align: baseline;
+}
