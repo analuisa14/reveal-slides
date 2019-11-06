@@ -1,4 +1,7 @@
-# Trabalho Final - Semana 3
+# Trabalho Final
+---
+
+# Semana 3
 
 ---
 
@@ -344,6 +347,14 @@ Devido à Aplicação Desktop ainda estar no começo o grupo teve muita dificuld
 
 %%%
 
+![Desktop](images/img1-grupo6.jpeg)
+
+---
+
+![Desktop2](images/img2-grupo6.jpeg)
+
+%%%
+
 #### O que será feito
 
 - Aprimoramento da Manutenção de Departamentos
@@ -578,4 +589,3 @@ Nossos planos da semana:
 
 - Auxílio aos grupos nos laboratórios e via Discord
 
----
